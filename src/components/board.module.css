@@ -1,0 +1,23 @@
+.board {
+  display: grid;
+  background-color: #27272b;
+  max-width: 800px;
+  max-height: 600px;
+  margin-top: 5%;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.row a {
+  display: flex;
+  flex: 1;
+  font-size: 15px;
+  justify-content: center;
+  color: white;
+  margin-top: 10px;
+}
